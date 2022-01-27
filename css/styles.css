@@ -1,0 +1,73 @@
+/* css variables declaration*/
+:root {
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(212, 45%, 89%);
+  --gray-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+
+  font-family: 'Outfit', sans-serif;
+}
+
+html {
+  /* 1rem = 10px */
+  font-size: 62.5%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--light-gray);
+
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+
+  width: 32rem;
+
+  border-radius: 2rem;
+}
+
+.container .qr-code-img {
+  margin: 1.6rem 1.6rem 2.4rem 1.6rem;
+}
+
+.container .title,
+.text {
+  text-align: center;
+}
+
+.container .title {
+  font-weight: 700;
+  color: var(--dark-blue);
+  font-size: 2.2rem;
+
+  padding: 0 1.6rem 1.6rem 1.6rem;
+}
+
+.container .text {
+  font-weight: 400;
+  color: var(--gray-blue);
+  font-size: 1.5rem;
+
+  padding: 0 3.2rem 4rem;
+}
+
+@media only screen and (max-width: 375px) {
+  .container {
+    margin: 8.5rem 2.7rem 8.5rem 2.8rem;
+
+    width: 90vw;
+  }
+}
