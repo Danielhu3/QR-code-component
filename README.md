@@ -4,11 +4,11 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Web Version
 
-<img src="design/desktop-desing.png" alt="Desktop Version"/>
+<img src="design/desktop-design.png" alt="Desktop Version"/>
 
 ### Mobile Version
 
-<img src="design/mobile-desing.png" alt="Mobile Version"/>
+<img src="design/mobile-design.png" alt="Mobile Version"/>
 
 ### Built with
 
